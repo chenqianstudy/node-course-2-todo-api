@@ -4,7 +4,7 @@
  * author:chenqian
  * datetime:2018-4-18
  */
-const mongoose = require('mongoose');
+const  { mongoose } = require('../mongoose');
 
 module.exports.User = mongoose.model('User',{
     email: {
