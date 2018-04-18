@@ -4,8 +4,7 @@
  * author:chenqian
  * datetime:2018-4-18
  */
-
-const { mongoose } = require('../mongoose');
+const { mongoose } = require('./../mongoose')
 
 module.exports.Todo = mongoose.model('Todo',{
 	text:{
